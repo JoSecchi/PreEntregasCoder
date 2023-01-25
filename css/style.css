@@ -1,0 +1,415 @@
+/* color azul background color:#06068f*/
+/* color naranja hsl(32deg 91% 49%)*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Passion One", cursive;
+  background: rgb(96, 91, 91);
+  background: linear-gradient(
+    90deg,
+    rgba(96, 91, 91, 1) 0%,
+    rgba(238, 238, 238, 1) 79%
+  );
+}
+
+img {
+  max-width: 100%;
+}
+
+img svg {
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1320px;
+  align-items: center;
+}
+
+/*ESTILOS DEL HEADER*/
+
+header {
+  background-color: #06068f;
+  padding: 0.5rem 1rem;
+  min-height: 5rem;
+  position: sticky;
+  top: 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container a i {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  color: #ef850b;
+}
+
+.header__title {
+  color: #ef850b;
+  font-size: 3.7rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin: 0 2rem;
+}
+
+.nav__link:hover {
+  color: #ef850b;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+footer {
+  padding-top: 1rem;
+  margin-top: 50px;
+}
+
+.container--footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #06068f;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.p__footer {
+  display: flex;
+  width: 40%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer-sm-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__link {
+  margin: 0.5rem 2.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.footer__link:hover {
+  color: #ef850b;
+}
+
+.footer-bottom__copyright {
+  display: flex;
+  width: 100vw;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  background-color: #ef850b;
+  color: #000;
+}
+
+/* COMIENZAN ESTILOS DEL INDEX.HTML */
+
+/*ESTILOS INTRO SECTION*/
+#intro-section {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+
+.intro-section__left {
+  display: flex;
+  width: 50vw;
+  border-radius: 18%;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-section__right {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.right-intro {
+  display: flex;
+  font-size: 5.2rem;
+  color: #06068f;
+}
+
+.right-description {
+  display: flex;
+  width: 80%;
+  font-size: 1.1rem;
+}
+*/
+
+
+/* ESTILOS BOXES SECTION */
+#boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container--boxes {
+  margin: 0 auto;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxes__title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 3rem auto;
+  font-size: 3rem;
+  color: #06068f;
+}
+
+.boxes__container {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.boxes__box {
+  max-width: 15rem;
+  margin-left: 0 auto;
+  padding: 1rem;
+  background-color: #ef850b;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.boxes__subtitle {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+}
+
+/* FINALIZAN ESTILOS DEL INDEX.HTML */
+
+/* COMIENZAN ESTILOS DE SERVICIOS.HTML */
+
+#servicios {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.servicios__title {
+  display: flex;
+  font-size: 4.8rem;
+  color: #06068f;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.servicios__box {
+  max-width: 25vw;
+  height: 40vh;
+  padding: 1.5rem 1.5rem;
+  margin: 3rem;
+  background-color: #ef850b;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.servicios__box-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.servicios__box__subtitle {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  padding: 1.2rem 0;
+}
+
+/* FINALIZAN ESTILOS DE SERVICIOS.HTML */
+
+/* COMIENZA ESTILOS NOSOTROS.HTML */
+
+#equipo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.equipo__title {
+  display: flex;
+  font-size: 4.8rem;
+  color: #06068f;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.equipo__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-equipo {
+  width: 50vw;
+  padding: 2rem 8rem;
+}
+
+.equipo__description {
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+
+/* FINALIZA ESTILOS NOSOTROS.HTML */
+
+/* COMIENZA ESTILOS FAQ.HTML */
+
+#faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq__top {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.faq__bottom {
+  display: flex;
+}
+
+.faq__top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+.faq__bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+.faq-title {
+  font-size: 2.8rem;
+  padding: 2rem 0;
+  color: #06068f;
+}
+
+.faq-description {
+  font-size: 1.2rem;
+}
+
+.faq__top-video {
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.faq__bottom-map {
+  display: flex;
+  padding: 2rem 2rem;
+}
+/* FINALIZA ESTILOS FAQ.HTML */
+
+/* COMIENZA ESTILOS CONTACTO.HTML */
+
+#contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto__title {
+  display: flex;
+  padding: 2rem 0;
+  font-size: 3rem;
+  color: #06068f;
+}
+
+legend {
+  font-size: 2rem;
+  padding: 0.5rem 0.2rem;
+  margin-left: 2rem;
+}
+
+.form__items {
+  display: flex;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: #06068f;
+}
+
+fieldset {
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 0 2rem;
+}
+
+.form__items label {
+  padding-right: 0.4rem;
+}
+
+.form__items .checkbox__text {
+  padding: 0 0.4rem;
+}
+
+.form__fecha-localidad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__fecha-localidad .form__items {
+  width: 50%;
+}
+
+.form__button {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: flex-end;
+}
+
+.form__button input {
+  background-color: #ef850b;
+  color: #000;
+  border-radius: 10%;
+  padding: 0.5rem;
+}
+/* FINALIZA ESTILOS CONTACTO.HTML */

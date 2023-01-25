@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Passion One", cursive;
+  background: rgb(96, 91, 91);
+  background: linear-gradient(
+    90deg,
+    rgba(96, 91, 91, 1) 0%,
+    rgba(238, 238, 238, 1) 79%
+  );
+  display: grid;
+  grid-template-columns : 1fr 1fr;
+}
